@@ -1,4 +1,4 @@
-const PORT = 3000;
+const PORT = env.process.PORT || 3000;
 const express = require("express");
 const server = express();
 const { client } = require("./db");
